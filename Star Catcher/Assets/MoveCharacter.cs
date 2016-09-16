@@ -57,9 +57,13 @@ public class MoveCharacter : MonoBehaviour {
             //adding the jumpSpeed var to the tempPos var
             tempPos.y = jumpSpeed;
         }
-       //test if the character controller is grounded 
-
+        //test if the character controller is grounded 
+        if (Input.GetKey(KeyCode.RightArrow) && Input.GetKeyDown(KeyCode.S))
+        {
+            StartCoroutine(Slide());
+        }
         if (myCC.isGrounded)
+
         {
             //reset the jumpcount if grounded
             jumpCount = 0;
@@ -70,12 +74,8 @@ public class MoveCharacter : MonoBehaviour {
         
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            //Start Sliding
-            if (Input.GetKey(KeyCode.RightArrow)&& Input.GetKeyDown(KeyCode.S))
-            {
-                //start coroutine is a function that calls a coroutine. use the coroutine in the argument 
-                StartCoroutine(Slide());
-            } 
+          
+          
         }
        //addind the speed car to the temppos var x value with the right and left arrow keys
         tempPos.x = speed* Input.GetAxis("Horizontal");
