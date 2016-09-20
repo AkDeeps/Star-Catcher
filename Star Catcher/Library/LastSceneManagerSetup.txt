@@ -1,1 +1,12 @@
+<<<<<<< HEAD
 sceneSetups: []
+=======
+sceneSetups:
+<<<<<<< HEAD
+- path: Assets/Prototype One.unity
+=======
+- path: Assets/starting delegates.unity
+>>>>>>> master
+  isLoaded: 1
+  isActive: 1
+>>>>>>> master
