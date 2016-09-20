@@ -1,6 +1,6 @@
 ﻿
 public class StaticVars {
 
-    public static float distance =1;
-    public static float nextSectionPosition =25;
+    public static float distance = 22;
+    public static float nextSectionPosition =3;
 }
