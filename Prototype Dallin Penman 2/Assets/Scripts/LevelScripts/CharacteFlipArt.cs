@@ -38,5 +38,8 @@ public class CharacteFlipArt : MonoBehaviour
         UserInput.UserInputs += FlipCharacter;
     }
     
-   
+   void OnDestroy()
+    {
+        UserInput.UserInputs -= FlipCharacter;
+    }
 }
