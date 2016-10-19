@@ -5,7 +5,7 @@ public class Gravity : MonoBehaviour {
 
     CharacterController myCC;
     Vector3 tempPos;
-    public float gravity = 1;
+   // public float gravity = 1;
     public float zForce = 1;
 
 	void Start () {
@@ -14,14 +14,14 @@ public class Gravity : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        tempPos.y -= gravity * Time.deltaTime;
+        //tempPos.y -= gravity * Time.deltaTime;
         tempPos.z = zForce;
 
 
-        if (myCC.isGrounded)
+        //if (myCC.isGrounded)
         {
-            tempPos.y = 0;
+            //tempPos.y = 0;
         }
-        myCC.Move(tempPos);
+       // myCC.Move(tempPos);
 	}
 }
