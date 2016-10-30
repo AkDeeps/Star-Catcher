@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{3CF3D05A-90A9-5A21-45D0-A553E3DBEFB1}") = "Star Catchers Prototype", "Assembly-CSharp.csproj", "{E500BD23-6FD2-D807-BC87-EE4F013F28B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E500BD23-6FD2-D807-BC87-EE4F013F28B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E500BD23-6FD2-D807-BC87-EE4F013F28B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E500BD23-6FD2-D807-BC87-EE4F013F28B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E500BD23-6FD2-D807-BC87-EE4F013F28B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

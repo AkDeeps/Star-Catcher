@@ -10,11 +10,12 @@ public class Gravity : MonoBehaviour {
 
 	void Start () {
         myCC = GetComponent<CharacterController>();
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {
         //tempPos.y -= gravity * Time.deltaTime;
+      
         tempPos.z = zForce;
 
 

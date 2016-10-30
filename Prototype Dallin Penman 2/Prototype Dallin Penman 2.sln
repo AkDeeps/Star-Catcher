@@ -1,7 +1,7 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype Dallin Penman 2.CSharp", "Prototype Dallin Penman 2.CSharp.csproj", "{67D9AC8C-2EC1-18EE-F200-99EA4B23BB80}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{D17E810B-E47D-6E62-2560-AD4088C7746A}") = "Prototype Dallin Penman 2", "Assembly-CSharp.csproj", "{1D75824D-A194-4D86-62BF-F5492AB1D872}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{67D9AC8C-2EC1-18EE-F200-99EA4B23BB80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{67D9AC8C-2EC1-18EE-F200-99EA4B23BB80}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{67D9AC8C-2EC1-18EE-F200-99EA4B23BB80}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{67D9AC8C-2EC1-18EE-F200-99EA4B23BB80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D75824D-A194-4D86-62BF-F5492AB1D872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D75824D-A194-4D86-62BF-F5492AB1D872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D75824D-A194-4D86-62BF-F5492AB1D872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D75824D-A194-4D86-62BF-F5492AB1D872}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
