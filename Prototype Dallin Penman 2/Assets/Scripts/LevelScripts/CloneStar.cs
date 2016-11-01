@@ -28,6 +28,7 @@ public class CloneStar : MonoBehaviour
             {
                 j = 0;
             }
+         
             //Instantiate(star, spawnPoints[i].position, Quaternion.identity);
             yield return new WaitForSeconds(spawnFrequency);
         }

@@ -15,6 +15,8 @@ public class AddToScore : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
+
+
         if (other.tag == "star") 
         {
             count = count + 1;
@@ -27,12 +29,7 @@ public class AddToScore : MonoBehaviour {
     }
 
 
-    void OnTriggerExit()
-    {
-        if (tag == "star") ;
-        Destroy(GameObject.FindWithTag("star"));
-    }
-
+ 
 
 
     void SetCountText()
