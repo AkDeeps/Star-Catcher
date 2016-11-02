@@ -45,17 +45,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GetRidOfStar.cs" />
+     <Compile Include="Assets\Scripts\LevelScripts\AddToScore.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\CharacteFlipArt.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\CharacterSlide.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\CloneStar.cs" />
+     <Compile Include="Assets\Scripts\LevelScripts\CoinPickup.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\CycleControl.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\DelegatesGeneral.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\DestroyStar.cs" />
+     <Compile Include="Assets\Scripts\LevelScripts\DontDestroyOnLoad.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\EndSplash.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\Enemies\EnemyAgent.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\Enemies\EnemyController.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\FakeParallax.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\FindThings.cs" />
+     <Compile Include="Assets\Scripts\LevelScripts\FreshStarPickup.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\Gravity.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\MoveCamera.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\MoveCharacter.cs" />
@@ -73,6 +78,7 @@
      <Compile Include="Assets\Scripts\LevelScripts\StaticVars.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\Statics.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\TempMoveModule.cs" />
+     <Compile Include="Assets\Scripts\LevelScripts\Timer.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\UserInput.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\zPush.cs" />
  <Reference Include="UnityEngine.UI">
