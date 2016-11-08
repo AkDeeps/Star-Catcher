@@ -81,6 +81,7 @@
      <Compile Include="Assets\Scripts\LevelScripts\Timer.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\UserInput.cs" />
      <Compile Include="Assets\Scripts\LevelScripts\zPush.cs" />
+     <None Include="Assets\Scenes\New Text Document.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
