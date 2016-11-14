@@ -1,0 +1,18 @@
+﻿using UnityEngine;
+using System.Collections;
+using UnityEngine.SceneManagement;
+public class RestartGame : MonoBehaviour {
+
+
+public class ExampleClass : MonoBehaviour
+    {
+        void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.R))
+                SceneManager.LoadScene(1);
+           
+
+        }
+    }
+}
+
