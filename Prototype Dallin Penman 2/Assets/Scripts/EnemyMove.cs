@@ -18,8 +18,5 @@ public class EnemyMove : MonoBehaviour {
         agent.destination = goal.position;
     }
     
-    // Update is called once per frame
-	void Update () {
-	
-	}
+   
 }
