@@ -82,6 +82,11 @@
      <Compile Include="Assets\Scripts\Timer.cs" />
      <Compile Include="Assets\Scripts\UserInput.cs" />
      <Compile Include="Assets\Scripts\zPush.cs" />
+     <None Include="Assets\forest-skyboxes\Langholmen2\readme.txt" />
+     <None Include="Assets\forest-skyboxes\Langholmen3\readme.txt" />
+     <None Include="Assets\forest-skyboxes\Plants\readme.txt" />
+     <None Include="Assets\forest-skyboxes\MountainPath\readme.txt" />
+     <None Include="Assets\forest-skyboxes\Brudslojan\readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
