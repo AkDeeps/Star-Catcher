@@ -66,6 +66,7 @@
      <Compile Include="Assets\Scripts\MoveRecycleTrigger.cs" />
      <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
      <Compile Include="Assets\Scripts\NewBehaviourScript1.cs" />
+     <Compile Include="Assets\Scripts\Overloading.cs" />
      <Compile Include="Assets\Scripts\REALCLONESTAR.cs" />
      <Compile Include="Assets\Scripts\RecycleLevel.cs" />
      <Compile Include="Assets\Scripts\Recycler.cs" />
