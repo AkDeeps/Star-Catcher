@@ -9,22 +9,12 @@ public class GetRidOfStar : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        Destroy(this.gameObject);
+        if (other.tag == "Player")
+        {
+            Destroy(this.gameObject);
+        }
+       
     }
 
-    //IEnumerator OnCollisionEnter(Collider other)
-    //{
-    //    if (other.tag == "ground")
-    //    {
-    //        yield return new WaitForSeconds(delay);
-    //        Destroy(this.gameObject);
-    //    }
-
-
-    //        yield return null;
-
-
-
-
-    //}
+    
 }

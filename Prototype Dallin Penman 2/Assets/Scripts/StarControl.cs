@@ -26,29 +26,19 @@ public class StarControl : MonoBehaviour
         while (forceTime > 0)
         {
             yield return new WaitForSeconds(forceDuration);
-            forceVector.x = Random.Range(-forceRange, forceRange);
-            torqueVector.z = Random.Range(-torqueRange, torqueRange);
+            forceVector.x = 100;
+            torqueVector.z = 100;
             rigid.AddTorque(torqueVector);
             rigid.AddForce(forceVector);
             forceTime--;
         }
     }
 
-    public float endTime = 3;
+   
 
-    //public void Deactivate()
-    //{
-    //    anims.SetBool("Destory", false);
-    //    gameObject.SetActive(false);
-    //}
 
-    void OnCollisionEnter()
-    {
-        //anims.SetBool("Destory", true);
-        //canAddForce = false;
-        //gameObject.SetActive(false);
-        //Destroy(gameObject, endTime);
-    }
+
+
 
 
 }

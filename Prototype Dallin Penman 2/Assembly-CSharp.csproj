@@ -45,7 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CycleControl.cs" />
+     <Compile Include="Assets\Scripts\AddStarForce.cs" />
      <Compile Include="Assets\Scripts\AddToScore.cs" />
      <Compile Include="Assets\Scripts\CharacteFlipArt.cs" />
      <Compile Include="Assets\Scripts\CharacterSlide.cs" />
