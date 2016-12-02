@@ -36,7 +36,7 @@ public class MenuStuff : MonoBehaviour {
 
     public void StartGame()
     {
-        SceneManager.LoadScene(Random.Range(1, 3));
+        SceneManager.LoadScene(Random.Range(1, 4));
     }
 
     public void LeaveGame()
