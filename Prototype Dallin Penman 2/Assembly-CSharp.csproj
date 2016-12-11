@@ -45,7 +45,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\MenuStuff.cs" />
+     <Compile Include="Assets\Delegateeeees.cs" />
+     <Compile Include="Assets\Scenes\Interface.cs" />
      <Compile Include="Assets\Scripts\AddStarForce.cs" />
      <Compile Include="Assets\Scripts\AddToScore.cs" />
      <Compile Include="Assets\Scripts\CharacteFlipArt.cs" />
@@ -58,10 +59,9 @@
      <Compile Include="Assets\Scripts\EndSplash.cs" />
      <Compile Include="Assets\Scripts\EnemyMove.cs" />
      <Compile Include="Assets\Scripts\FakeParallax.cs" />
-     <Compile Include="Assets\Scripts\FindThings.cs" />
-     <Compile Include="Assets\Scripts\FreshStarPickup.cs" />
      <Compile Include="Assets\Scripts\GetRidOfStar.cs" />
      <Compile Include="Assets\Scripts\Gravity.cs" />
+     <Compile Include="Assets\Scripts\MenuStuff.cs" />
      <Compile Include="Assets\Scripts\MoveCamera.cs" />
      <Compile Include="Assets\Scripts\MoveCharacter.cs" />
      <Compile Include="Assets\Scripts\MoveRecycleTrigger.cs" />
@@ -80,11 +80,10 @@
      <Compile Include="Assets\Scripts\StaticVars.cs" />
      <Compile Include="Assets\Scripts\Statics.cs" />
      <Compile Include="Assets\Scripts\TakeAwayStars.cs" />
-     <Compile Include="Assets\Scripts\TempMoveModule.cs" />
      <Compile Include="Assets\Scripts\Timer.cs" />
      <Compile Include="Assets\Scripts\UserInput.cs" />
      <Compile Include="Assets\Scripts\UvuLogoAway.cs" />
-     <Compile Include="Assets\Scripts\zPush.cs" />
+     <Compile Include="Assets\music.cs" />
      <None Include="Assets\forest-skyboxes\Langholmen2\readme.txt" />
      <None Include="Assets\forest-skyboxes\Langholmen3\readme.txt" />
      <None Include="Assets\forest-skyboxes\Plants\readme.txt" />
