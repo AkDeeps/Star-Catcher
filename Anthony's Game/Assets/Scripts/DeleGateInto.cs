@@ -4,26 +4,23 @@ using System;
 
 public class DeleGateInto : MonoBehaviour {
 
-    public static Action MyEvent;
+    public static Action IdoDeclare;
     public static Action<string> EventWithArgs;
+    public static Action <string> EventString;
+    public static Action<string> EvtReturnArgs;
+    public string myString;
 
-    
-    public static Func<string> EventString;
-    public delegate string DelReturnArgs(string s);
-    public static DelReturnArgs EvtReturnArgs;
+    void Start () {
 
-	void Start () {
+        myString = ("its a string yo");
+     
+        IdoDeclare();
 
+        EvtReturnArgs(myString);
 
-        string data = EvtReturnArgs("all those weapons suck"); 
+       
 
-
-        EventWithArgs("Nice weapons");
-
-
-
-        if(MyEvent != null)
-        MyEvent();
+      
 	}
 	
 

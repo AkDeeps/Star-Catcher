@@ -45,11 +45,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Coroutines.cs" />
-     <Compile Include="Assets\MonoBehaviors.cs" />
-     <Compile Include="Assets\OneUpdate.cs" />
-     <Compile Include="Assets\OtherMonoBehaviors.cs" />
-     <Compile Include="Assets\switchStatement1.cs" />
+     <Compile Include="Assets\Scripts\Arsenal.cs" />
+     <Compile Include="Assets\Scripts\Axe.cs" />
+     <Compile Include="Assets\Scripts\Coroutines.cs" />
+     <Compile Include="Assets\Scripts\DeleGateInto.cs" />
+     <Compile Include="Assets\Scripts\EventHandler.cs" />
+     <Compile Include="Assets\Scripts\Hammer.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviors.cs" />
+     <Compile Include="Assets\Scripts\MyStatics.cs" />
+     <Compile Include="Assets\Scripts\OneUpdate.cs" />
+     <Compile Include="Assets\Scripts\OtherMonoBehaviors.cs" />
+     <Compile Include="Assets\Scripts\Spear.cs" />
+     <Compile Include="Assets\Scripts\Weapon.cs" />
+     <Compile Include="Assets\Scripts\otherStatics.cs" />
+     <Compile Include="Assets\Scripts\switchStatement1.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
