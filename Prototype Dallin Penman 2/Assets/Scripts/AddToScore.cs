@@ -4,12 +4,20 @@ using UnityEngine.UI;
 public class AddToScore : MonoBehaviour {
 
     public int pointsToAdd;
-    private int count = 0;
+    private float count = Statics.score;
     public Text countText;
-   
+    public AudioSource starCollected;
+    public AudioClip bing;
+
+    public float loud = .5f;
+    public float soft = .20f;
 
     void Start()
     {
+        Statics.score = 0;
+
+
+        starCollected = GetComponent<AudioSource>();
         SetCountText();
     }
 
@@ -19,9 +27,13 @@ public class AddToScore : MonoBehaviour {
 
         if (other.tag == "star") 
         {
-            count = count + 1;
+            float volume = loud;
+            starCollected.PlayOneShot(bing , volume);
+            print("should have sound");
+        
+            Statics.count = Statics.count + 1;
             SetCountText();
-          
+            
         }
 
 
@@ -33,6 +45,12 @@ public class AddToScore : MonoBehaviour {
 
     void SetCountText()
     {
-        countText.text = "Score:  " + count.ToString();
+        countText.text = "Score:  " + Statics.count.ToString();
+    }
+
+
+    void Update()
+    {
+        Statics.score = Statics.count;
     }
 }

@@ -9,13 +9,35 @@ public class Timer : MonoBehaviour {
 
     public Text text;
 
+    public AudioSource countdown;
+    public AudioClip threetwoone;
+    public AudioClip initiate;
 
-	
-	void Update () {
+    void Start()
+    {
+        StartCoroutine("Print");
+        StartCoroutine("OtherCountdown");
+        countdown = GetComponent<AudioSource>();
+    }
+
+
+    IEnumerator Print()
+    {
+        yield return new WaitForSeconds(56);
+        countdown.PlayOneShot(threetwoone, 1);
+
+    }
+
+    IEnumerator OtherCountdown()
+    {
+        yield return new WaitForSeconds(58);
+        countdown.PlayOneShot(initiate, 1);
+    }
+
+    void Update() {
 
         remainingTime -= Time.deltaTime;
         text.text = " " + Mathf.Round(remainingTime);
-
 
 
         if (remainingTime < 0)
@@ -23,5 +45,6 @@ public class Timer : MonoBehaviour {
             SceneManager.LoadScene(1);
         }
 
-	}
+    }
+
 }

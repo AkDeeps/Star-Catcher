@@ -6,9 +6,12 @@ public class EnemyMove : MonoBehaviour {
 
     public Transform goal;
     public float time = 5;
+    private Animator anim;
+
 
 	void Start () {
         StartCoroutine(Spawner());
+        anim = GetComponent<Animator>();
 }
 	
 	IEnumerator Spawner()

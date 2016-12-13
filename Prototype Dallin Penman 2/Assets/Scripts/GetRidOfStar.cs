@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GetRidOfStar : MonoBehaviour {
+public class GetRidOfStar : MonoBehaviour
+{
 
     public int delay = 4;
 
@@ -13,8 +14,10 @@ public class GetRidOfStar : MonoBehaviour {
         {
             Destroy(this.gameObject);
         }
-       
+
+
+     
     }
 
-    
+
 }

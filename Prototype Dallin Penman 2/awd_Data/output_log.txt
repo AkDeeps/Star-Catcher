@@ -1,0 +1,111 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 760 (ID=0x1187)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\djpen_000\Desktop\Star-Catcher\Prototype Dallin Penman 2\awd_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\djpen_000\Desktop\Star-Catcher\Prototype Dallin Penman 2\awd_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\djpen_000\Desktop\Star-Catcher\Prototype Dallin Penman 2\awd_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\djpen_000\Desktop\Star-Catcher\Prototype Dallin Penman 2\awd_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\djpen_000\Desktop\Star-Catcher\Prototype Dallin Penman 2\awd_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\djpen_000\Desktop\Star-Catcher\Prototype Dallin Penman 2\awd_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\djpen_000\Desktop\Star-Catcher\Prototype Dallin Penman 2\awd_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\djpen_000\Desktop\Star-Catcher\Prototype Dallin Penman 2\awd_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\djpen_000\Desktop\Star-Catcher\Prototype Dallin Penman 2\awd_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\djpen_000\Desktop\Star-Catcher\Prototype Dallin Penman 2\awd_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.174 seconds
+Platform assembly: C:\Users\djpen_000\Desktop\Star-Catcher\Prototype Dallin Penman 2\awd_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\djpen_000\Desktop\Star-Catcher\Prototype Dallin Penman 2\awd_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 144Hz; virtual: 5760x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.915192 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 7f14 -> priority: 1 
+  Thread -> id: 6f84 -> priority: 1 
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.272384 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 279.
+Total: 0.220884 ms (FindLiveObjects: 0.017245 ms CreateObjectMapping: 0.013229 ms MarkObjects: 0.163950 ms  DeleteObjects: 0.025986 ms)
+
+The referenced script on this Behaviour (Game Object 'Rabbit') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.971899 ms
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 980.
+Total: 0.378456 ms (FindLiveObjects: 0.041814 ms CreateObjectMapping: 0.021261 ms MarkObjects: 0.295063 ms  DeleteObjects: 0.019844 ms)
+
+should have sound
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+should have sound
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+should have sound
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+should have sound
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+should have sound
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+should have sound
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+should have sound
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+should have sound
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+should have sound
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+should have sound
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+should have sound
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+should have sound
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+should have sound
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+should have sound
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+should have sound
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.012760 ms
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 283.
+Total: 0.437988 ms (FindLiveObjects: 0.019371 ms CreateObjectMapping: 0.015119 ms MarkObjects: 0.179542 ms  DeleteObjects: 0.223246 ms)
+

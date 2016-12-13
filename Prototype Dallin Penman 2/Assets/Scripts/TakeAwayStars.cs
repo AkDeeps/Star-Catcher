@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class TakeAwayStars : MonoBehaviour {
 
     public int pointsToAdd;
-    private int count = 0;
+    private float count = Statics.score;
     public Text countText;
 
 
@@ -21,7 +21,7 @@ public class TakeAwayStars : MonoBehaviour {
 
         if (other.tag == "Player")
         {
-            count = count - 1;
+            Statics.count = Statics.count - 3;
             SetCountText();
             print(count);
 
@@ -36,6 +36,13 @@ public class TakeAwayStars : MonoBehaviour {
 
     void SetCountText()
     {
-        countText.text = "Score:  " + count.ToString();
+        if (Statics.count < 0)
+            Statics.count = 0;
+        countText.text = "Score:  " + Statics.count.ToString();
+    }
+
+    void Update()
+    {
+        Statics.score = Statics.count;
     }
 }
