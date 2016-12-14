@@ -9,7 +9,7 @@ public class AddToScore : MonoBehaviour {
     public AudioSource starCollected;
     public AudioClip bing;
 
-    public float loud = .5f;
+    public float loud = .2f;
     public float soft = .20f;
 
     void Start()

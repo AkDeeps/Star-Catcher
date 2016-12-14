@@ -1,13 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
-
-public class Weapon
+using System;
+public class Weapon: Interface1 
 {
 
     public string damage;
     public string massive;
     public string legendary;
 
+    public void Name()
+    {
+
+    }
 
     public Weapon()
     {

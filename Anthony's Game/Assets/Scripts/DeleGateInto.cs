@@ -7,16 +7,20 @@ public class DeleGateInto : MonoBehaviour {
     public static Action IdoDeclare;
     public static Action<string> EventWithArgs;
     public static Action <string> EventString;
-    public static Action<string> EvtReturnArgs;
-    public string myString;
+    public static Action <string>EvtReturnArgs;
+
 
     void Start () {
 
-        myString = ("its a string yo");
+        EventWithArgs("something"); 
+
+        EventString("somethingElse");
+
+        EvtReturnArgs("somethingElseElse");
      
         IdoDeclare();
 
-        EvtReturnArgs(myString);
+      
 
        
 

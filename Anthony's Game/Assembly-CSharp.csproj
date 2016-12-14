@@ -49,11 +49,12 @@
      <Compile Include="Assets\Scripts\Axe.cs" />
      <Compile Include="Assets\Scripts\Coroutines.cs" />
      <Compile Include="Assets\Scripts\DeleGateInto.cs" />
-     <Compile Include="Assets\Scripts\EventHandler.cs" />
      <Compile Include="Assets\Scripts\Hammer.cs" />
+     <Compile Include="Assets\Scripts\Interface1.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviors.cs" />
      <Compile Include="Assets\Scripts\MyStatics.cs" />
      <Compile Include="Assets\Scripts\OneUpdate.cs" />
+     <Compile Include="Assets\Scripts\OtherDelegate.cs" />
      <Compile Include="Assets\Scripts\OtherMonoBehaviors.cs" />
      <Compile Include="Assets\Scripts\Spear.cs" />
      <Compile Include="Assets\Scripts\Weapon.cs" />

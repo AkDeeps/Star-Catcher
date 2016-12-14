@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\CoinPickup.cs" />
      <Compile Include="Assets\Scripts\DelegatesGeneral.cs" />
      <Compile Include="Assets\Scripts\DestroyStar.cs" />
+     <Compile Include="Assets\Scripts\DestroyStar2.cs" />
      <Compile Include="Assets\Scripts\DontDestroyOnLoad.cs" />
      <Compile Include="Assets\Scripts\EndSplash.cs" />
      <Compile Include="Assets\Scripts\EnemyMove.cs" />

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class Hammer : Weapon
 {
@@ -14,6 +15,6 @@ public class Hammer : Weapon
         Debug.Log("Massive damage dealt");
     }
 
-
+    
 
 }
