@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1D75824D-A194-4D86-62BF-F5492AB1D872}</ProjectGuid>
+    <ProjectGuid>{B731A2A6-A0DD-36A0-ABB5-119F49CD9CAD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,10 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Delegateeeees.cs" />
      <Compile Include="Assets\Scenes\Interface.cs" />
      <Compile Include="Assets\Scripts\AddStarForce.cs" />
      <Compile Include="Assets\Scripts\AddToScore.cs" />
+     <Compile Include="Assets\Scripts\ButtonClicks.cs" />
      <Compile Include="Assets\Scripts\CharacteFlipArt.cs" />
      <Compile Include="Assets\Scripts\CharacterSlide.cs" />
      <Compile Include="Assets\Scripts\CloneStar.cs" />
@@ -84,7 +84,7 @@
      <Compile Include="Assets\Scripts\Timer.cs" />
      <Compile Include="Assets\Scripts\UserInput.cs" />
      <Compile Include="Assets\Scripts\UvuLogoAway.cs" />
-     <Compile Include="Assets\music.cs" />
+     <Compile Include="Assets\Scripts\music.cs" />
      <None Include="Assets\forest-skyboxes\Langholmen2\readme.txt" />
      <None Include="Assets\forest-skyboxes\Langholmen3\readme.txt" />
      <None Include="Assets\forest-skyboxes\Plants\readme.txt" />
