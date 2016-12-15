@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{D64D3038-307C-DA77-4AD5-D76CA84B2B44}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -45,30 +46,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Arsenal.cs" />
-     <Compile Include="Assets\Scripts\Axe.cs" />
-     <Compile Include="Assets\Scripts\Coroutines.cs" />
-     <Compile Include="Assets\Scripts\DeleGateInto.cs" />
-     <Compile Include="Assets\Scripts\Hammer.cs" />
-     <Compile Include="Assets\Scripts\Interface1.cs" />
-     <Compile Include="Assets\Scripts\MonoBehaviors.cs" />
-     <Compile Include="Assets\Scripts\MyStatics.cs" />
-     <Compile Include="Assets\Scripts\OneUpdate.cs" />
-     <Compile Include="Assets\Scripts\OtherDelegate.cs" />
-     <Compile Include="Assets\Scripts\OtherMonoBehaviors.cs" />
-     <Compile Include="Assets\Scripts\Spear.cs" />
-     <Compile Include="Assets\Scripts\Weapon.cs" />
-     <Compile Include="Assets\Scripts\otherStatics.cs" />
-     <Compile Include="Assets\Scripts\switchStatement1.cs" />
- <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
- </Reference>
+    <Compile Include="Assets\Scripts\Arsenal.cs" />
+    <Compile Include="Assets\Scripts\Axe.cs" />
+    <Compile Include="Assets\Scripts\CollectItems.cs" />
+    <Compile Include="Assets\Scripts\Coroutines.cs" />
+    <Compile Include="Assets\Scripts\DeleGateInto.cs" />
+    <Compile Include="Assets\Scripts\Hammer.cs" />
+    <Compile Include="Assets\Scripts\Interface1.cs" />
+    <Compile Include="Assets\Scripts\Lists.cs" />
+    <Compile Include="Assets\Scripts\Loops.cs" />
+    <Compile Include="Assets\Scripts\MonoBehaviors.cs" />
+    <Compile Include="Assets\Scripts\MyStatics.cs" />
+    <Compile Include="Assets\Scripts\OneUpdate.cs" />
+    <Compile Include="Assets\Scripts\OtherDelegate.cs" />
+    <Compile Include="Assets\Scripts\OtherMonoBehaviors.cs" />
+    <Compile Include="Assets\Scripts\Spear.cs" />
+    <Compile Include="Assets\Scripts\Weapon.cs" />
+    <Compile Include="Assets\Scripts\otherStatics.cs" />
+    <Compile Include="Assets\Scripts\switchStatement1.cs" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -78,5 +82,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  
 </Project>
